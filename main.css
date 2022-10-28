@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  height: 90px;
+  background-color: #000;
+}
+
+.menu li a {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.footer1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  height: 90px;
+  background-color: #000;
+}
+
+.footer1 li {
+  list-style-type: none;
+  color: #fff;
+}
+
+.connection a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.connection {
+  color: #fff;
+  background: #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.PHIO {
+  margin-bottom: 10px;
+}
+
+.Email {
+  margin-bottom: 10px;
+}
+
+.conversion {
+  margin-top: 10px;
+}
+
+.text-message {
+  margin-top: 10px;
+}
+
+.attach-file {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.approval {
+  margin-top: 10px;
+}
+
+.btn {
+  color: #fff;
+}
+
+.attach-file-text {
+  text-align: center;
+}
